@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form id="form">
+        <h2 id="title">Crear contacto</h2>
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" placeholder="Nombre" id="name">
+        <label for="phone">Telefono:</label>
+        <input type="text" name="phone" placeholder="000-000-0000" id="phone">
+        <input type="hidden" name="id">
+        <button class="save">Guardar</button>
+    </form>
+    <h2>Agenda</h2>
+    <section id="agenda">
+        <template id="template">
+            <div class="box">
+                <p></p>
+                <button id="edit">Edit</button>
+                <button id="delete">Delete</button>
+            </div>
+        </template>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>

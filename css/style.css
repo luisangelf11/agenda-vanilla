@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  margin-top: 20px;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+}
+
+label {
+  width: 90%;
+  font-weight: bold;
+  color: #222;
+  text-align: left;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: rgb(13, 22, 49);
+  padding: 10px;
+}
+
+.save {
+  background-color: royalblue;
+  color: #fff;
+  text-transform: uppercase;
+  width: 80%;
+  border-radius: 3px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.75;
+}
+
+#agenda {
+  width: 300px;
+  margin: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  gap: 30px;
+}
+
+.box {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  font-weight: 800;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.box p {
+  padding: 10px;
+}
+
+#edit {
+  padding: 10px;
+  background-color: rgb(25, 105, 49);
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#delete {
+  padding: 10px;
+  background-color: rgb(150, 26, 26);
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
